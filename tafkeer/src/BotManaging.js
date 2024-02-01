@@ -33,7 +33,7 @@ export default function BotManaging() {
     const [ready, setReady] = useState(false)
     const {course_id} = useParams();
     useEffect(()=>{
-        axios.post(`${process.env.REACT_APP_DB_URI}/api/verify`, {token: localStorage.getItem('token') || ''}, {headers:{'x-access-token':localStorage.getItem('token'), 'email':localStorage.getItem('email')}})
+        axios.post(`https://nodejs3-5e53e7e9c48f.herokuapp.com/api/verify`, {token: localStorage.getItem('token') || ''}, {headers:{'x-access-token':localStorage.getItem('token'), 'email':localStorage.getItem('email')}})
             .then((res)=>{
                 if(res.data.firstName !== undefined && res.data.secondName !== undefined)
                     setVerifiedData([res.data.firstName, res.data.secondName, res.data.email])
