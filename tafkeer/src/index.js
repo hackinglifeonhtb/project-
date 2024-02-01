@@ -13,6 +13,7 @@ import Ticket from './Ticket'
 import Push_Ticket from './Push_Ticket'
 import BotManaging from './BotManaging'
 import reportWebVitals from './reportWebVitals';
+import Error from './Error'
 import { registerLicense } from '@syncfusion/ej2-base';
 registerLicense('ORg4AjUWIQA/Gnt2UVhiQlJPdUBDQmFJfFdmRGNTflh6dlFWESFaRnZdRl1iSn9SdkdgWntadndW');
 ReactDOM.render(
@@ -29,6 +30,7 @@ ReactDOM.render(
         <Route path='/tickets' element={<Tickets />} />
         <Route path='/tickets/:ticket_id' element={<Ticket />} />
         <Route path='/ticket/new_ticket' element={<Push_Ticket />} />
+        <Route path='/ticket/new_ticket' element={<Error />} />
         {/*<Route path='/register' element={<Register />} />
         <Route path='/login' element={<Login />} />          
 <Route path='/challenges/:challenge' element={<Challenge />} />*/}
