@@ -1,0 +1,22 @@
+html, .Scrollbar {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: auto;
+}
+
+html::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.Scrollbar::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.send_comment_design {
+    position:relative;
+    top:-25px;
+    display:flex;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+}

@@ -1,0 +1,49 @@
+.course-info h1 {
+    color:#9fef00;
+}
+
+.course-info-bg {
+    opacity:0.3;
+    background-image: url('./Images/photo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 85vh;
+}
+.btn-success {
+    margin-left:5%;
+}
+
+disabled.lesson-card:before {
+    height:100px;
+    width:100px;
+    content:'1';
+    background-color:#9fef00;
+    left:-50px;
+    top: -50px;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+    color:black;
+    font-size:30px;
+    border-radius:50%;
+
+}
+.lesson-index {
+    height:100px;
+    width:100px;
+    background-color:#9fef00;
+    left:-50px;
+    top: -50px;
+    display:flex;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+    color:black;
+    font-size:30px;
+    border-radius:50%;
+    position:absolute;
+}
+
+.lesson-index h1 {
+    color:black;
+    text-align:center;
+}

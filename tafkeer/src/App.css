@@ -1,0 +1,122 @@
+body {
+  font-family: 'Cairo';
+  /*height:200vh;*/
+  background-color: #010102;
+  color:white;
+  margin:0;
+}
+header {
+  margin:0;
+  background-color:black;
+  direction: rtl;
+  text-align: center;
+  z-index:1;
+  display:flex;
+  justify-content:space-around;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+header .container ul li {
+  
+}
+header .container img { 
+  margin:10px;
+  height: 100px;
+}
+.card {
+  background-color:#181a1b!important;
+}
+.card-img-tafkeer {
+  display:inline-block;
+}
+.card::before {
+  /*content:url('./Images/ruby.png'); /* with class ModalCarrot ??*/
+  content: '';
+  position:absolute; /*or absolute*/
+  z-index:100000; /*a number that's more than the modal box*/
+  height:100%;
+  width:100%;
+  display:flex;
+}
+.card-img-div9::after {
+  content:'';
+  background-image:url('./Images/man1.jpg')!important;
+  height:50px;
+  width:50px;
+  position:absolute;
+  border-radius:50%;
+  background-size: 50px 50px;
+    display: inline-block;
+    text-align:center;
+    align-items:center;
+    align:center;
+    top:57.5%;
+    left:45%;
+}
+.card:hover {
+  animation: shadow 0.5s infinite;
+  opacity:1;
+}
+.card_later:hover::before {
+  text-align:center bottom;
+  content:'بدء!';
+  align-items:10px 20 30 40;
+  justify-content: center;
+  font-size:30px;
+  background:url('./Images/tafkeer.png') center top 50px no-repeat;
+  background-size: 75% 50%;
+  background-color:#181a1b;
+  border-radius:0.375rem;
+}
+.card {
+  cursor: pointer;
+  opacity:0.8;
+}
+@keyframes shadow {
+  0% {
+    box-shadow: 5px 5px 5px white, 5px 5px 50px gold;
+  }
+}
+.trainer {
+  height:100%;
+}
+.divs div {
+  margin-bottom:10px;
+  border-radius:10px;
+}
+
+header .container h1 {
+  margin:25px;
+  color:#e6b31e;
+}
+
+header .container ul {
+  display:flex;
+  margin-top:30px;
+}
+
+header .container ul li {
+  list-style-type:none;
+  margin-right:50px;
+  color:#5D5FEF;
+  position: relative;
+  cursor:pointer;
+  font-size: 20px;
+}
+
+.imgs img {
+  border-radius: 50%;
+  margin-left: 7%;
+  margin-top: 10px;
+}
+
+* {
+  text-decoration: none;
+}
+
+h1 {
+  text-decoration: none;
+}

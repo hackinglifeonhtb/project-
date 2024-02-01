@@ -1,0 +1,10 @@
+.new-ticket-input {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.ticket-textarea {
+    color:white;
+    width: 75%;
+}

@@ -1,0 +1,32 @@
+.new-comment-button {
+    width:150px;
+}
+.comments-search-input {
+    color: #9fef00;
+    width: 75%;
+    border-radius: 0px 10px 10px 0px!important;
+}
+
+.correcting-mark {
+    /*filter: grayscale(100%); /* Standard *//*
+    -webkit-filter: grayscale(100%); /* Webkit *//*
+    filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale"); /* Firefox4-34*//*
+    filter: gray;  /* IE6-9 *//*
+    -webkit-filter: grayscale(1); /* Old WebKit */
+    /*opacity: 0.25;*/
+}
+
+.correcting-mark:hover {
+    opacity: 1;
+}
+
+.tickets {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: auto;
+    height:100vh;
+}
+
+.tickets::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
