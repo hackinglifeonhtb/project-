@@ -13,7 +13,7 @@ export default function Loading() {
                     setName(res.data.firstName+' '+res.data.secondName)
             }).catch((err)=>{
                 console.log(window.location.href)
-                window.location.replace(`https://logictubes.org/login?refer_to=${window.location.href}`)
+                //window.location.replace(`https://logictubes.org/login?refer_to=${window.location.href}`)
                 console.log(window.location.href)
             })
     }, [])
